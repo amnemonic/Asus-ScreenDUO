@@ -21,3 +21,13 @@
 ### Python libraries
 - `pip install pyusb`
 - `pip install pillow`
+
+### Links, references
+- [github.com/TheMorc/screenduo-userspace](https://github.com/TheMorc/screenduo-userspace)
+- [github.com/mayorbobster/screenduo4linux](https://github.com/mayorbobster/screenduo4linux)
+- [Official support page with drivers for Windows XP and Vista](https://www.asus.com/supportonly/screenduo/helpdesk_download/)
+- Old official drivers (SideShow) on archive.org:
+  - [v1.08.06](https://web.archive.org/web/20240406002024/https://dlcdnets.asus.com/pub/ASUS/mb/accessory/ScreenDuo/ScreenDuo_10806.zip?model=ScreenDuo)
+  - [v1.08.07](https://web.archive.org/web/20240406001904/https://dlcdnets.asus.com/pub/ASUS/mb/accessory/ScreenDuo/ScreenDuo_10807.zip?model=ScreenDuo)
+  - [v1.08.08](https://web.archive.org/web/20240406001806/https://dlcdnets.asus.com/pub/ASUS/mb/accessory/ScreenDuo/ScreenDuo_10808.zip?model=ScreenDuo)
+
