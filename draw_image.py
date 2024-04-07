@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 '''
-
+import sys
 import ctypes
 import usb.core
 import usb.util
@@ -117,8 +117,12 @@ if __name__ == '__main__':
     if dev is None:
         print('Device not found'); exit(-1)
 
+    if len(sys.argv)!=2:
+        print('Provide image path'); exit(-2)
 
-    image      = Image.open("octocat.png")
+    image = Image.open(sys.argv[1])
+    if image.size != (320,240):
+        image = image.resize((320,240), resample=Image.LANCZOS)
     raw_pixels = image.tobytes()
 
     img_header = ASUS_IMAGE_HEADER()
